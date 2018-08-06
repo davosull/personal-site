@@ -1,5 +1,12 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 <meta charset="UTF-8">
 <meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
@@ -10,6 +17,16 @@
 <link rel="stylesheet" type="text/css" href="assets/style.css">
 
 <style>
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url('assets/page-loader.gif') 50% 50% no-repeat #000;
+}
 
 /* ---------------------------- Background, div size & Colour ---------------------------- */
 
@@ -87,7 +104,8 @@ margin: 0;
 
 </style>
 </head>
-<body>
+
+<body><div class="loader"></div>
 
 
 <div id="topbar">
