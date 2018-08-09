@@ -1,0 +1,361 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" /><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
+
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<meta charset="UTF-8">
+<meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
+<meta name="keywords" content="Digital, Design, Designer">
+<meta name="author" content="David O'Sullivan">
+
+<link href="https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:800" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<style>
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url('assets/page-loader.gif') 50% 50% no-repeat #000;
+}
+
+/* ---------------------------- Background, div size & Colour ---------------------------- */
+
+
+#band1 {
+	background: #000;
+width: 100%;
+}
+
+#band2 {
+	background: #fcfcfc;
+width: 100%;
+}
+
+#band3 {
+	background: #000;
+width: 100%;
+}
+
+#band4 {
+	background: #e6e7e8;
+width: 100%;
+}
+
+#band5 {
+	background: #fff;
+width: 100%;
+}
+
+.maincontent {
+position: relative;
+}
+
+
+#intro {
+	background-color: #fff;
+	background-image: url("assets/prh-bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	width: 100%;
+	padding-top: 160px;
+	margin-bottom: 30px;
+}
+
+#intro p {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+#intro-inner {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro-inner2 {
+	overflow: hidden;
+	margin-top: 160px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+@media screen and (min-width: 800px) {
+
+.textblock {
+max-width: 460px;
+}
+
+.imgblock {
+max-width: 300px;
+}
+
+.left {
+float: left;
+}
+
+.textblock.left {
+margin-right: 40px;
+}
+
+.textblock.right {
+margin-left: 40px;
+}
+
+.right {
+float: right;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+.textblock {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.imgblock {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: calc(100% - 40px);
+}
+
+#intro {
+	background-image: none;
+	padding-top: 40px;
+}
+
+.intro-inner2 {
+	margin-top: 40px;
+}
+
+}
+
+/* ---------------------------- Fonts & text size ---------------------------- */
+
+
+h2, h5 {
+font-family: 'Nixie One', cursive;
+font-weight: 300;
+	color: #fff;
+}
+
+
+h2 {
+margin-bottom: 0;
+}
+
+h5 {
+margin-top: 0;
+}
+
+h4 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
+	color: #444;
+		text-transform: uppercase;
+
+}
+
+h6 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
+margin: 0;
+	color: #fff;
+		text-transform: uppercase;
+
+}
+
+p {
+font-family: 'Helvetica', sans-serif;
+margin: 0;
+	color: #444;
+}
+
+
+@media screen and (max-width: 1000px) {
+	h5 {	font-size: 3.5vw; }
+	h6 {	font-size: 1.4vw; }
+	h2 {	font-size: 5vw; }
+	P {	font-size: 2vw; }
+}
+
+@media screen and (min-width: 1000px) {
+	h5 {	font-size: 32px; }
+	h6 {	font-size: 14px; }
+	h2 {	font-size: 50px; }
+	P {	font-size: 18px; }
+}
+
+/* ---------------------------- Positioning text ---------------------------- */
+
+
+#text1 {
+	position: absolute;
+	top: 30%;
+	left: 8%;
+}
+
+#text2 {
+	position: absolute;
+	top: 5%;
+	left: 8%;
+}
+
+
+#text3 {
+	position: absolute;
+	top: 5%;
+	left: 8%;
+}
+
+#text3 h5 {
+			color: #000;
+}
+
+#text4 h5 {
+			color: #000;
+}
+
+#text4 {
+	position: absolute;
+	top: 6%;
+	left: 8%;
+}
+
+#text5 {
+	position: absolute;
+	top: 60%;
+	left: 65%;
+		width: 25%
+}
+
+
+#text7 {
+	position: absolute;
+	top: 3%;
+	left: 50%;
+		width: 40%
+}
+
+
+
+
+</style>
+</head>
+
+<body><div class="loader"></div>
+
+
+<div id="topbar">
+<a href=index.html><div id="logo"></div></a>
+<a href=app.html><div id="prev"></div></a>
+<a href=awards.html><div id="next"></div></a>
+</div>
+
+
+<div id="container">
+
+<div id="band1">
+<div class="maincontent">
+<img src="assets/prh-folio1_01.jpg" />
+
+<div id="text1"><h2>
+Penguin <br />Australia
+</h2><h6 style="margin-top: 8%;">
+Penguin.com.au
+</h6>
+</div>
+
+</div>
+</div>
+
+<div id="intro">
+<div id="intro-inner">
+<h4>UX & Market Research analysis</h4>
+<p>Early in the project, external UX researchers and a market research firm were brought in. Using this research, our team was able to make design descisions based on user personas, user flows, data modeling and stakeholder interviews.
+</p>
+</div>
+
+<div class="intro-inner2">
+<div class="textblock right"><h4>Wireframing, prototyping & testing</h4>
+<p>The project was developed using a strict waterfall methodology, with final design signoff required before any development could start. Customers and stakeholders often don’t know what they really want until they’ve had a chance to play with a working prototype, so we created wireframes and simple prototypes to quickly test ideas and iterations of designs.
+</p>
+</div>
+	<img src="assets/prh-wires.jpg" class="imgblock right">
+</div>
+
+<div class="intro-inner2">
+	<div class="textblock left"><h4>Design</h4>
+<p>The original plan was to translate the final, signed off wireframes into pixel perfect designs for mobile, tablet and desktop designs for each page. This involved maintaining and updating 40+ individual page designs, many of them extremely similar, through multiple rounds of changes. Yikes!</p>
+<p>I spotted an opportunity to simplify this (and save days of design time), by breaking down the designs into a series of components, matching the react components used by the development team, and created redlines explaining how they would behave at different resolutions. Introducing a grid and a typographic style guide further simplified the handover.
+</p>
+</div>
+<img src="assets/prh-design1.jpg"  class="imgblock left">
+</div>
+
+
+
+
+
+<div class="intro-inner2">
+<div  class="textblock right">
+<h4>Launch</h4>
+<p>As the final designs were handed over, I was made lead designer on the project and worked closely with the development team to get the site launched. As the deadline approached, we made some tough calls, removing functionality where required, and improving usability where we could.
+</p>
+</div>
+	<img src="assets/prh-launch.jpg" class="imgblock right">
+</div>
+
+</div>
+
+
+<div id="band2">
+<div class="maincontent">
+
+</div>
+</div>
+
+<div id="band3">
+<div class="maincontent">
+<img src="assets/prh-folio1_03.jpg" />
+
+<div id="text2"><h5>
+Flexible, modular design
+</h5>
+</div>
+
+</div>
+</div>
+
+<div id="band4">
+<div class="maincontent">
+<img src="assets/prh-folio1_04.jpg" />
+<div id="text3"><h5>
+Designing with code</h5>
+</div>
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

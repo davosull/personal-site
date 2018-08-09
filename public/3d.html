@@ -1,0 +1,249 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<meta charset="UTF-8">
+<meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
+<meta name="keywords" content="Digital, Design, Designer">
+<meta name="author" content="David O'Sullivan">
+
+<link href="https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:800" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<style>
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url('assets/page-loader.gif') 50% 50% no-repeat #000;
+}
+
+
+/* ---------------------------- Background, div size & Colour ---------------------------- */
+
+body {
+	background: #000  url("assets/3d-bg.jpg");
+	background-attachment: fixed;
+	background-size: 100% auto;
+background-repeat: no-repeat;
+background-position: top center; 
+}
+
+
+/* ---------------------------- Fonts & text size ---------------------------- */
+
+
+h2, h5 {
+font-family: 'Nixie One', cursive;
+font-weight: 300;
+margin: 0;
+	color: #fff;
+}
+
+h6 {
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
+margin: 0;
+	color: #fff;
+		text-transform: uppercase;
+
+}
+
+p {
+font-family: 'Helvetica', sans-serif;
+margin: 0;
+line-height: 1.4em;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 1000px) {
+	h5 {	font-size: 3.5vw; }
+	h6 {	font-size: 1.3vw; }
+	h2 {	font-size: 5vw; }
+	.text {	font-size: 2vw; }
+}
+
+@media screen and (min-width: 1000px) {
+	h5 {	font-size: 36px; }
+	h6 {	font-size: 16px; }
+	h2 {	font-size: 60px; }
+	.text {	font-size: 16px; }
+}
+
+
+/* ---------------------------- Positioning text 1280 ---------------------------- */
+
+
+
+#text1 {
+	text-align: left;
+	position: absolute;
+	bottom: 15%;
+	left: 8%;
+}
+
+#text2 {
+	position: absolute;
+	top: 24%;
+	left: 30%;
+	width: 50%;
+}
+
+
+#text3 {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+		width: 40%
+}
+
+#text3 h6 {
+			color: #444;
+}
+
+#text4 h6 {
+			color: #444;
+}
+
+#text3 p {
+			color: #444;
+}
+
+#text4 p {
+			color: #444;
+}
+
+#text5 h6 {
+			color: #444;
+}
+
+#text5 p {
+			color: #444;
+}
+
+#text4 {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	width: 25%
+}
+
+#text5 {
+	position: absolute;
+	top: 65%;
+	left: 68%;
+		width: 25%
+}
+
+
+#text6 {
+	position: absolute;
+	top: 90%;
+	left: 30%;
+	width: 50%;
+}
+
+.heroimg {
+	position: relative;
+	padding-top: 50px;
+	width: 100%;
+	background: #000;
+	text-align: center;
+}
+
+.heroimg img {
+	width: 100%;
+	max-width: 1400px;
+}
+
+.textouter {
+	width: calc(100% - 40px;);
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.textinner {
+	margin-top: 60px;
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+</style>
+</head>
+
+<body><div class="loader"></div>
+
+<div id="topbar">
+<a href=index.html><div id="logo"></div></a>
+<a href=awards.html><div id="prev"></div></a>
+<a href=allout.html><div id="next"></div></a>
+</div>
+
+<div class="heroimg">
+	<div id="text1"><h6>
+Penguin Random House
+</h6><h2>
+Book photo generator
+</h2>
+</div>
+	<img src="assets/3d1.gif" />
+
+</div><div class="textouter">
+	<div class="textinner">
+	<p>
+Our team was responsible for creating artwork and photos for penguin random house's social media posts. Given the fast moving nature of social media, we would regularly recieve urgent, last minute requests to photograph a particular book. The social media managers weren't getting the artwork quickly enough, and the design team were struggling with quick turnaround times.
+</p><p style="margin-top: 10%">
+I photographed a series of 60 blank paperback & hardback books in common settings and cropped the images to standard social media sizes. I then built an online tool using php & imagemagick to fetch the cover image from our server, render it directly onto these photos and return a high resolution jpg.
+</p>
+</div></div>
+<div id="container">
+
+<div class="maincontent">
+
+<div id="content1">
+<img src="assets/3d2.png" />
+<img src="assets/3d3.gif" style="margin-bottom: 30%; width:55% !important; margin-left: 8%; margin-right: auto; margin-top: -25%" />
+ 
+
+<div id="text3">
+<h6>
+Step 1</h6><p class="text">
+Each book has a unique ISBN code. The social media manager grabs the ISBN from our website and paste it into the online tool
+</p>
+</div>
+
+<div id="text4">
+<h6>
+Step 2</h6><p class="text">
+They pick a photo of a book or eReader and hit 'Create Photo'
+</p>
+</div>
+
+<div id="text5">
+<h6>
+Step 3</h6><p class="text">
+They download a high res photo ready for upload to facebook or twitter
+</p>
+</div>
+
+<!--<div id="text6"><h6>
+The generator</h6><p style="margin-top: 2%;">
+View the live <a href="/photo/">book photo generator</a> <br /> Note: this will only work with penguin.com.au titles.
+</div>
+-->
+</div>
+</div>
+</body>
+</html>

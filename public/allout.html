@@ -1,0 +1,307 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" /><script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
+
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<meta charset="UTF-8">
+<meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
+<meta name="keywords" content="Digital, Design, Designer">
+<meta name="author" content="David O'Sullivan">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<style>
+hr { 
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.aoty-assets {
+	width: 350px;
+	flex-grow: 2;
+	float: left;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.aoty-assets-inner {
+	width: 100%;
+
+}
+
+.aoty-assets img {
+	width: 100%;
+
+}
+
+.container1 {
+	padding-left: 60px;
+	padding-right: 60px;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+	}
+
+.post {
+	flex-grow: 2;
+    margin: 10px;  
+    width:320px;
+        display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+
+iframe {
+margin: 0;
+padding: 0;
+border: none;}
+
+.ad1 {
+	float: left;
+	margin:10px;
+}
+
+.ad2 {
+	float: left;
+	margin:10px;
+}
+
+@media screen and (max-width: 750px) {
+.ad2 {
+	display: none;
+}
+	}
+
+
+
+
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url('assets/page-loader.gif') 50% 50% no-repeat #000;
+}
+
+/* ---------------------------- Background, div size & Colour ---------------------------- */
+
+
+#band1 {
+	background: #000;
+width: 100%;
+}
+
+#band2 {
+	background: #fff;
+width: 100%;
+}
+
+#band3 {
+	background: #fff;
+width: 100%;
+}
+
+#band4 {
+	background: #fff;
+width: 100%;
+}
+
+#band5 {
+	background: #fff;
+width: 100%;
+}
+
+.maincontent {
+position: relative;
+}
+
+
+.intro {
+	background: #fff;
+	width: 100%;
+	padding-top: 80px;
+	margin-bottom: 30px;
+}
+
+.intro p {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.intro li {
+	font-size: 18px;
+	line-height: 1.8em;
+}
+
+.intro-inner {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* ---------------------------- Fonts & text size ---------------------------- */
+
+
+h2 {
+line-height:0.9;
+font-family: 'Montserrat', 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0;
+	color: #fff;
+}
+
+h5 {
+line-height:1;
+font-family: 'Montserrat', 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0;
+	color: #EA6E6E;
+}
+
+h6 {
+font-family:  'Montserrat', 'Open Sans', sans-serif;
+font-weight: 700;
+text-transform: uppercase;
+margin: 0;
+	color: #fff;
+		text-transform: uppercase;
+
+}
+
+p {
+font-family: 'Helvetica', sans-serif;
+margin: 0;
+	color: #444;
+}
+
+li {
+font-family: 'Helvetica', sans-serif;
+margin: 0;
+	color: #444;
+}
+
+
+@media screen and (max-width: 1000px) {
+	h5 {	font-size: 3vw; }
+	h6 {	font-size: 1.4vw; }
+	h2 {	font-size: 6vw; }
+	P {	font-size: 2vw; }
+}
+
+@media screen and (min-width: 1000px) {
+	h5 {	font-size: 24px; }
+	h6 {	font-size: 16px; }
+	h2 {	font-size: 70px; }
+	P {	font-size: 18px; }
+}
+
+/* ---------------------------- Positioning text ---------------------------- */
+
+
+#text1 {
+	text-align: center;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+}
+
+#text2 {
+	position: absolute;
+	top: 6%;
+	left: 8%;
+}
+
+
+#text3 {
+	position: absolute;
+	top: 6%;
+	left: 8%;
+}
+
+#text3 h5 {
+			color: #000;
+}
+
+#text4 h5 {
+			color: #000;
+}
+
+#text4 {
+	position: absolute;
+	top: 6%;
+	left: 8%;
+}
+
+#text5 {
+	position: absolute;
+	top: 60%;
+	left: 65%;
+		width: 25%
+}
+
+
+#text7 {
+	position: absolute;
+	top: 3%;
+	left: 50%;
+		width: 40%
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+
+<div id="topbar">
+<a href=index.html><div id="logo"></div></a>
+<a href=3d.html><div id="prev"></div></a>
+<a href=andy.html><div id="next"></div></a>
+</div>
+
+
+<div id="container">
+<iframe src="http://graffiti-hire.com/build/" width="100%" height="1000px"></iframe>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

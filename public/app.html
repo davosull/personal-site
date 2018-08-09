@@ -1,0 +1,174 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+	$(".loader").fadeOut("slow");
+})
+</script>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<meta charset="UTF-8">
+<meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
+<meta name="keywords" content="Digital, Design, Designer">
+<meta name="author" content="David O'Sullivan">
+
+<link href="https://fonts.googleapis.com/css?family=Exo:900" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+<style>
+
+p {
+	font-family: exo;
+}
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: url('assets/page-loader.gif') 50% 50% no-repeat #000;
+}
+
+/* ---------------------------- Background, div size & Colour ---------------------------- */
+
+
+#band1 {
+	background: #363e93;
+width: 100%;
+}
+
+#band2 {
+	background: #e86000;
+width: 100%;
+}
+
+#band3 {
+	background: #77a0c8;
+width: 100%;
+}
+
+#band4 {
+	background: #f6f054;
+width: 100%;
+}
+
+.maincontent {
+position: relative;
+}
+
+/* ---------------------------- Fonts & text size ---------------------------- */
+
+h5 {
+font-family: 'Exo', sans-serif;
+margin: 0;
+	color: #fff;
+		font-weight:800;
+		line-height: 1em;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+	h5 {	font-size: 2.4vw; }
+
+}
+
+@media screen and (min-width: 1000px) {
+	h5 {	font-size: 28px; }
+
+}
+
+
+/* ---------------------------- Positioning text ---------------------------- */
+
+#text1 {
+	position: absolute;
+	text-align: right;
+	top: 20%;
+	left: 75%;
+	width: 15%;
+}
+
+#text2 {
+	position: absolute;
+	text-align: right;
+	top: 55%;
+	left: 75%;
+	width: 20%;
+
+}
+
+
+</style>
+</head>
+
+<body><div class="loader"></div>
+
+<div id="topbar">
+<a href=index.html><div id="logo"></div></a>
+<a href=lyka.html><div id="prev"></div></a>
+<a href=prh.html><div id="next"></div></a>
+</div>
+
+<div id="container">
+
+
+<div id="band1">
+<div class="maincontent">
+<img src="assets/app_01.jpg" />
+</div>
+</div>
+
+<div id="intro">
+<div id="intro-inner">
+<p>
+<br />
+Purely a visual design job, I applied an entirely new look to a whitelabel app template created for a series of penguin cooking apps.
+<br /><br /><br />
+</p>
+</div>
+</div></div>
+
+<div id="band2">
+<div class="maincontent">
+<img src="assets/app_02.jpg" />
+<div id="text1"><h5>
+Easy to follow, step by step instructions for 50 sugar free recipes 
+</h5>
+</div>
+</div>
+</div>
+
+<div id="band3">
+<div class="maincontent">
+<img src="assets/app_03.jpg" />
+<div id="text2"><h5>
+One touch function to create instant shopping lists
+</h5>
+</div>
+</div>
+</div>
+
+<div id="band4">
+<div class="maincontent">
+<img src="assets/app_04.jpg" />
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

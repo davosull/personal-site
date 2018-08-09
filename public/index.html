@@ -1,0 +1,341 @@
+<html>
+<head>
+<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+<meta charset="UTF-8">
+<meta name="description" content="Hello, my name is David O'Sullivan and I am a digital designer based in Melbourne, Australia.">
+<meta name="keywords" content="Digital, Design, Designer">
+<meta name="author" content="David O'Sullivan">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<style>
+
+
+.item {
+	width: 300px;
+	float: left;
+		background: #fff;
+	margin: 10px 20px 10px 0px;
+	border: 1px #eee solid;
+}
+
+.thumb {
+	width: 100%;
+}
+
+.thumb img {
+	width: 100%
+}
+
+.item:hover { 
+    background: #eee;
+}
+
+.item:hover img { 
+	opacity: .9;
+}
+
+
+
+.copy {
+	padding: 0 20px;
+	height: 140px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	color: #444;
+}
+
+
+.rightcol p, ol {
+		font-family: 'Raleway', sans-serif;
+		color: #444;
+		line-height: 1.6em
+}
+
+.folio p {
+		font-family: 'Raleway', sans-serif;
+		color: #444;
+		line-height: 1.6em
+}
+
+ol,li { list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
+
+.outer {
+	position: relative;
+	display: block;
+	width: 100%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.inner {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadein2 {
+	0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#intro1 {
+	margin-top: 120px;
+	animation-name: fadein;
+    animation-duration: 1s;
+}
+
+.featured {
+	margin-top: 40px;
+	animation-name: fadein2;
+    animation-duration: 2s;
+}
+
+
+.component {
+	width: 100%;
+	display: inline-block;
+}
+
+
+.leftcol {
+	text-align: right;
+	width: 30%;
+	float: left;
+}
+
+.rightcol {
+	width: 70%;
+	float: left;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #444;
+}
+
+h2 {font-family: 'Raleway', sans-serif;
+	font-weight:800;
+	color: #444;
+	font-size: 14px;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+
+.skill-block{
+	width: 100%;
+	overflow: auto;
+}
+
+.skill-image{
+	float: left;
+}
+
+.skill-text{
+	margin-left: 20px;
+	max-width: 480px;
+	padding-right: 20px;
+	float: left;
+}
+
+.folio-inner{overflow: hidden;}
+
+#fixedtext {
+	position: fixed;
+	left: 0;
+	top: 50%;
+	transform: rotate(90deg);
+	font-family: 'Raleway', sans-serif;
+	color: #444;
+}
+
+.logoimg {
+	width: 150px; 
+	margin-top: 5px;
+}
+
+@media screen and (max-width: 480px) {
+
+
+h2 {padding: 0;}
+.leftcol {
+	text-align:center;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: calc(100% - 40px);
+}
+.rightcol {
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	width: calc(100% - 40px);
+}
+
+.item {
+	width: 100%;
+	float: left;
+		background: #fff;
+	margin: 10px 20px 10px 0px;
+	border: 1px #eee solid;
+}
+
+.skill-block {
+	text-align: center;
+}
+
+.skill-image {
+	float: none;
+}
+
+.logoimg {
+	margin-left: auto;
+}
+
+#intro1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.inner-text {
+	margin-left: auto;
+	margin-right: auto;
+width: 280px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<!-- <div id="fixedtext">UX/UI Designer</div> -->
+
+<div id="container">
+
+<div class="component" id="intro1">
+	<div class="leftcol">
+	<img src="assets/logo.png" class="logoimg">
+</div>
+	<div class="rightcol">
+<div class="inner-text">
+	<p>
+6 years experience designing websites and apps.  
+</p>
+
+<ol>
+<li>davosull@gmail.com
+</li><li><a href="https://au.linkedin.com/in/david-o-sullivan-136a6624">LinkedIn</a></li></ol>
+</div>
+</div>
+</div>
+
+
+<div class="component featured">
+	<div class="leftcol">
+	<h2>Case studies</h2>
+</div>
+<div class="folio rightcol">
+<div class="folio-inner">
+
+	<a href="prh.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_penguin.jpg"/></div>
+<div class="copy"><h3>Penguin.com.au</h3><p>Redesign of Penguin Random House's Australian website</p></div></div>
+</a>
+
+<a href="awards.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_awards.jpg"/></div>
+<div class="copy"><h3>Agent of the Year</h3><p>Promoting Australia's top real estate awards.</p></div></div>
+</a>
+
+</div>
+</div>
+
+
+
+
+<div class="component featured">
+	<div class="leftcol">
+	<h2>Key Skills</h2>
+</div>
+	<div class="rightcol">
+
+<div class="skill-block"><img src="assets/code.png" class="skill-image"/><p class="skill-text">
+HTML, CSS, Javascript & most modern frontend technologies.
+</p></div>
+
+<div class="skill-block"><img src="assets/ux.png" class="skill-image"/><p class="skill-text">
+A deep understanding of the general UX discipline  and User-First design principles.  Formal Lean UX training & Mentoring.
+</p></div>
+
+<div class="skill-block"><img src="assets/agile.png" class="skill-image"/><p class="skill-text">
+Experience with Agile software  development methodologies.
+</p></div>
+
+</div>
+</div>
+
+
+
+
+
+<div class="component featured">
+	<div class="leftcol">
+	<h2>Portfolio</h2>
+</div>
+<div class="folio rightcol">
+<div class="folio-inner">
+<a href="3d.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_photos.jpg"/></div>
+<div class="copy"><h3> Book photo generator</h3><p>An online tool to create social posts from templated photos and book covers</p></div></div>
+</a>
+
+<a href="allout.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_allout.jpg"/></div>
+<div class="copy"><h3>All Out Design</h3><p>Design and build of Landing page for Irish creative agency</p></div></div>
+</a>
+
+<a href="andy.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_andy.jpg"/></div>
+<div class="copy"><h3> Andyroid HQ </h3><p>A website created to promote the Andy Roid series of books</p></div></div>
+</a>
+
+<a href="jetstar.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_jetstar.jpg"/></div>
+<div class="copy"><h3> Jetstar internal EDMs</h3><p>EDM for Jetstar's leadership team</p></div></div>
+</a>
+
+<a href="lyka.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_lyka.jpg"/></div>
+<div class="copy"><h3> Lykas guide to Ahmee</h3><p>A website created to promote the Lyka toy and series of books</p></div></div>
+</a>
+
+<a href="app.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_poison.jpg"/></div>
+<div class="copy"><h3> Sweet Poison IOS App</h3><p>App reskin for David Gillespies Book</p></div></div>
+</a>
+
+<!--
+<a href="video.html"><div class="item">
+<div class="thumb"><img src="assets/thumb_video.jpg"/></div>
+<div class="copy"><h3> Outdoor digital Advertising</h3><p>Advertising created for screens in Airports around Australia</p></div></div>
+</a>
+-->
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</body>
+</html>
